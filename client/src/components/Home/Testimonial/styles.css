@@ -1,0 +1,17 @@
+@media (min-width: 0px) { 
+    .swiper-button-next,.swiper-button-prev {
+        display:none;
+    
+    }
+    
+}
+/* Desktop device */
+@media (min-width:1024px) { 
+    .swiper-button-next,.swiper-button-prev {
+        display:block;
+    
+    }
+}
+.swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 20px;
+}
